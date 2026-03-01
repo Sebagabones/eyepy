@@ -18,7 +18,7 @@ MAKO_RIGHT = 3
 MAKO_BACK = 4
 
 
-def up(secs: int, speed: int = 100) -> None:
+def up(secs: float | int, speed: int = 100) -> None:
     """Blocking drive the sub up at `speed` for `secs`
 
     Parameters
@@ -36,7 +36,7 @@ def up(secs: int, speed: int = 100) -> None:
     MOTORDrive(MAKO_BACK, 0)
 
 
-def down(secs: int, speed: int = 100) -> None:
+def down(secs: float | int, speed: int = 100) -> None:
     """Blocking drive the sub down at `speed` for `secs`
 
     Parameters
@@ -54,7 +54,7 @@ def down(secs: int, speed: int = 100) -> None:
     MOTORDrive(MAKO_BACK, 0)
 
 
-def forwards(secs: int, speed: int = 100) -> None:
+def forwards(secs: float | int, speed: int = 100) -> None:
     """Blocking drive the sub fowards at `speed` for `secs`
 
     Parameters
@@ -72,7 +72,7 @@ def forwards(secs: int, speed: int = 100) -> None:
     MOTORDrive(MAKO_RIGHT, 0)
 
 
-def backwards(secs: int, speed: int = 100) -> None:
+def backwards(secs: float | int, speed: int = 100) -> None:
     """Blocking drive the sub backwards at `speed` for `secs`
 
     Parameters
@@ -90,7 +90,7 @@ def backwards(secs: int, speed: int = 100) -> None:
     MOTORDrive(MAKO_RIGHT, 0)
 
 
-def turn_left(secs: int, speed: int = 100) -> None:
+def turn_left(secs: float | int, speed: int = 100) -> None:
     """Blocking turn the sub left at `speed` for `secs`
 
     Parameters
@@ -108,7 +108,7 @@ def turn_left(secs: int, speed: int = 100) -> None:
     MOTORDrive(MAKO_RIGHT, 0)
 
 
-def turn_right(secs: int, speed: int = 100) -> None:
+def turn_right(secs: float | int, speed: int = 100) -> None:
     """Blocking turn the sub right at `speed` for `secs`
 
     Parameters
