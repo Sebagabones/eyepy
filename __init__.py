@@ -32,4 +32,4 @@ from eyepy.v_omega import *
 from eyepy.utils import *
 from eyepy.drawing import *
 
-from eyepy.mako import *
+from eyepy.mako import mako
