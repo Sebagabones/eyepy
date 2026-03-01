@@ -2,7 +2,7 @@
 # Grabbed from the examples
 from time import sleep
 
-from motors import MOTORDrive
+from eyepy.motors import MOTORDrive
 
 MAKO_PSD_FRONT = 1
 MAKO_PSD_FRONT_LEFT = 2
