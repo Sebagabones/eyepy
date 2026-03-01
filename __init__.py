@@ -31,3 +31,5 @@ from eyepy.v_omega import *
 # new funcs
 from eyepy.utils import *
 from eyepy.drawing import *
+
+from eyepy.mako import *
